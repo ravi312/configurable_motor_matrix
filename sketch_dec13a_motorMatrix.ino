@@ -12,23 +12,23 @@
   
 
 */
-int myPins[] = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, A1, A2, A3, A4, A5};
-int myPins1[] = { 6, 7, A2 ,A3, A4, A1, 8 , 5, A5, 12, 3, 4, A0, 11, 10, 3};
+int S_pattern[] = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, A1, A2, A3, A4, A5};
+int X_pattern[] = { 6, 7, A2 ,A3, A4, A1, 8 , 5, A5, 12, 3, 4, A0, 11, 10, 3};
 
 void setup() {
-  /*
+  
   for (byte i = 0; i < 15; i++) {
-    pinMode(myPins[i], OUTPUT);
+    pinMode(S_pattern[i], OUTPUT);
   }
-  */
-  pinMode(3,OUTPUT);
-
+  
 }
 
 void loop() {
   //motor( motor ID, ON duration, delay) time in millisec
-    
-    motor(3,100,500);
+   //For S pattern 
+   for (byte i = 0; i < 15; i++) {
+    motor(S_pattern[i],100,200);
+  }
               
 }
 

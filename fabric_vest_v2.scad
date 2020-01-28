@@ -1,3 +1,16 @@
+/*
+  parametric fabric design using openScad for configurable motor matrix 
+
+  modified Date
+  by __
+
+  written 18 Dec 2019
+  by Ravi Sinha ( github username: ravi312)
+  
+  This code is in the public domain.
+  
+*/
+
 fab_x=35*4;
 fab_y=30*1.;
 fab_z=0.8;
