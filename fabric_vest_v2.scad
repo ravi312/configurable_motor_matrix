@@ -4,10 +4,12 @@
   modified Date
   by __
 
+  designed by 18 Dec 2019
+  by Jude Terrance D'suza
   written 18 Dec 2019
   by Ravi Sinha ( github username: ravi312)
   
-  This code is in the public domain.
+  MIT Licence
   
 */
 

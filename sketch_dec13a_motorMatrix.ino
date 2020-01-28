@@ -8,7 +8,7 @@
   written 13 Dec 2019
   by Ravi Sinha ( github username: ravi312)
 
-  This code is in the public domain.
+  MIT Licence
   
 
 */
@@ -24,8 +24,8 @@ void setup() {
 }
 
 void loop() {
-  //motor( motor ID, ON duration, delay) time in millisec
-   //For S pattern 
+  //motor( motor IDcode, ON duration, delay) time in millisec
+   //For S pattern code
    for (byte i = 0; i < 15; i++) {
     motor(S_pattern[i],100,200);
   }
